@@ -42,7 +42,7 @@ header a {
 }
 
 .hero ul {
-    text-align: left;
+    text-align: center;
     padding: 0;
     list-style: none;
     color: #ffffff;
@@ -71,6 +71,7 @@ header a {
 .hero nav ul li a {
     color: white;       /* Makes text color white */
     font-weight: bold;  /* Makes text bold */
+    float: center;
 }
 .about, .videos {
 padding: 20px 0;
@@ -84,20 +85,18 @@ padding: 20px 0;
 }
 .flex-container {
     display: flex;
-    justify-content: space-between; /* Adjust this as needed, depending on your design */
-    align-items: flex-start; /* Aligns items to the top of the container */
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 
-/* Depending on your layout, you might need to add specific widths or responsiveness to these containers */
 .text-container {
-    flex: 3; /* Adjust the ratio between the text and video container as appropriate */
+    flex: 3; 
 }
 
 .video {
-    flex: 1; /* Adjust the ratio between the text and video container as appropriate */
+    flex: 1; 
 }
 
-/* Optional: Add a media query to stack the columns on smaller screens */
 @media (max-width: 768px) {
     .flex-container {
         flex-direction: column;
@@ -105,14 +104,14 @@ padding: 20px 0;
 }
 .video-grid {
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     flex-wrap: wrap;
 }
 
 .video {
     margin: 10px;
-    flex: 1;
-    justify-content: center;
+    flex: 2;
+    justify-content: stretch;
 }
 
 footer {
