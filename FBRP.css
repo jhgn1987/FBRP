@@ -98,10 +98,6 @@ padding: 20px 0;
 }
 
 .text-container {
-    flex: 3; 
-}
-
-.video {
     flex: 1; 
 }
 
@@ -121,7 +117,7 @@ padding: 20px 0;
 
 .video {
     margin: 20px;
-    flex: 2;
+    flex: auto;
     align-items: stretch;
 }
 
