@@ -87,14 +87,18 @@ padding: 20px 0;
     margin: auto;
     overflow: hidden;
     display: flex;
-    justify-content: stretch;  
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
 }
 .flex-container2 {
     width: 80%;
     margin: auto;
     overflow: hidden;
     display: flex;
-    justify-content: stretch; 
+    justify-content: stretch;
+    flex-direction: row; 
 }
 
 .text-container {
