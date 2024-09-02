@@ -83,7 +83,13 @@ padding: 20px 0;
     height: auto;
     margin-top: 20px;
 }
-.flex-container {
+.flex-container{
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: stretch;  
+}
+.flex-container2 {
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -100,7 +106,7 @@ padding: 20px 0;
 }
 
 @media (max-width: 768px) {
-    .flex-container {
+    .flex-container2 {
         flex-direction: column;
     }
 }
