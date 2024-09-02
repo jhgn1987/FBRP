@@ -112,6 +112,7 @@ padding: 20px 0;
 .video {
     margin: 10px;
     flex: 1;
+    justify-content: center;
 }
 
 footer {
