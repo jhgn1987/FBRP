@@ -69,8 +69,8 @@ header a {
     color: #ffffff;
 }
 .hero nav ul li a {
-    color: white;       /* Makes text color white */
-    font-weight: bold;  /* Makes text bold */
+    color: white;       
+    font-weight: bold;  
     float: center;
 }
 .about, .videos {
@@ -104,6 +104,8 @@ padding: 20px 0;
 }
 .video-grid {
     width: 80%;
+    margin: auto;
+    overflow: hidden;
     display: flex;
     justify-content: stretch;
     flex-wrap: wrap;
