@@ -86,7 +86,7 @@ padding: 20px 0;
 .flex-container {
     display: flex;
     justify-content: space-between; 
-    align-items: flex-start; 
+    align-items: stretch; 
 }
 
 .text-container {
@@ -114,6 +114,7 @@ padding: 20px 0;
 .video {
     margin: 20px;
     flex: 2;
+    align-items: stretch;
 }
 
 footer {
