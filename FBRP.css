@@ -94,7 +94,7 @@ padding: 20px 0;
 }
 
 .video {
-    flex: 2; /* Adjust the ratio between the text and video container as appropriate */
+    flex: 1; /* Adjust the ratio between the text and video container as appropriate */
 }
 
 /* Optional: Add a media query to stack the columns on smaller screens */
