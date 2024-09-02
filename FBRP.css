@@ -88,8 +88,7 @@ padding: 20px 0;
     margin: auto;
     overflow: hidden;
     display: flex;
-    justify-content: space-between; 
-    align-items: stretch; 
+    justify-content: stretch; 
 }
 
 .text-container {
