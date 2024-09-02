@@ -103,6 +103,7 @@ padding: 20px 0;
     }
 }
 .video-grid {
+    width: 80%;
     display: flex;
     justify-content: stretch;
     flex-wrap: wrap;
