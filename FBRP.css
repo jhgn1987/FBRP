@@ -103,14 +103,12 @@ padding: 20px 0;
     }
 }
 .video-grid {
-    width: 80%;
-    margin: auto;
     overflow: hidden;
     display: flex;
     justify-content: stretch;
     flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
+    align-items: stretch;
+    text-align: justify;
 }
 
 .video {
