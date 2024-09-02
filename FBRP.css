@@ -106,12 +106,14 @@ padding: 20px 0;
     display: flex;
     justify-content: stretch;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .video {
     margin: 10px;
     flex: 2;
     justify-content: stretch;
+    align-items: center;
 }
 
 footer {
