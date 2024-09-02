@@ -84,6 +84,7 @@ padding: 20px 0;
     margin-top: 20px;
 }
 .flex-container {
+    width: 80%;
     display: flex;
     justify-content: space-between; 
     align-items: stretch; 
