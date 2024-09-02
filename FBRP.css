@@ -63,7 +63,7 @@ header a {
     margin: 0 auto;
 }
 .hero nav {
-    float: left;
+    float: center;
     display: inline;
     margin-top: 10px;
     color: #ffffff;
@@ -105,12 +105,13 @@ padding: 20px 0;
 }
 .video-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .video {
-    margin: 20px;
+    margin: 10px;
+    flex: 1;
 }
 
 footer {
