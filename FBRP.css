@@ -85,6 +85,8 @@ padding: 20px 0;
 }
 .flex-container {
     width: 80%;
+    margin: auto;
+    overflow: hidden;
     display: flex;
     justify-content: space-between; 
     align-items: stretch; 
