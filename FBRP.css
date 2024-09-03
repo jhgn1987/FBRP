@@ -90,7 +90,8 @@ padding: 20px 0;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    text-align: justify;  
+    text-align: justify;
+    width: 100%;  
 }
 
 .text-container {
@@ -103,7 +104,10 @@ padding: 20px 0;
      {
         flex-direction: column;
     }
-  
+  .video{
+    max-width: 100%;
+    height:auto;
+    }
 }
 .video-grid {
     overflow: hidden;
