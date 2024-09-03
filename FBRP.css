@@ -88,7 +88,7 @@ padding: 20px 0;
     overflow: hidden;
     display: flex;
     justify-content: stretch;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;  
 }
@@ -106,11 +106,11 @@ padding: 20px 0;
 }
 
 @media (max-width: 768px) {
-    .flex-container2 {
+    .flex-container2
+    .flex-container {
         flex-direction: column;
     }
-    {.flex-container: column;
-    }
+  
 }
 .video-grid {
     overflow: hidden;
