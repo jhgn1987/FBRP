@@ -93,7 +93,7 @@ padding: 20px 0;
 }
 
 .text-container {
-    flex: auto;
+    flex: 50%;
     flex-direction: row; 
 }
 
@@ -134,7 +134,7 @@ width: 100%;
 }
 .video2{
 margin: 10px;
-    flex: 1;
+    flex: 50%;
     max-width: 100%;
     align-self: center;
     display: flex;
