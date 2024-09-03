@@ -150,4 +150,6 @@ a {
 }
 .container2{
     width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
