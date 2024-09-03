@@ -129,7 +129,8 @@ width: 100%;
     flex: 1;
     max-width: 100%;
     align-self: center;
-    justify-self: center;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
 }
