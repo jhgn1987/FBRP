@@ -108,6 +108,12 @@ padding: 20px 0;
     max-width: 80%;
     height:auto;
     }
+.container{
+    width: 100%;
+}
+.container2{
+width: 100%;
+}
 }
 .video-grid {
     overflow: hidden;
