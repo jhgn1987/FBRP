@@ -109,6 +109,8 @@ padding: 20px 0;
     .flex-container2 {
         flex-direction: column;
     }
+    {.flex-container: column;
+    }
 }
 .video-grid {
     overflow: hidden;
