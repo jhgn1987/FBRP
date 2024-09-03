@@ -95,7 +95,7 @@ padding: 20px 0;
 }
 
 .text-container {
-    flex: 50%;
+    flex: auto;
     flex-direction: row; 
 }
 
