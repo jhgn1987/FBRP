@@ -94,12 +94,13 @@ padding: 20px 0;
 }
 
 .text-container {
-    flex: 50%; 
+    flex: 50%;
+    flex-direction: row; 
 }
 
 @media (max-width: 768px) {
     .flex-container
-    .text-container {
+     {
         flex-direction: column;
     }
   
