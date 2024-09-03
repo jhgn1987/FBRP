@@ -121,6 +121,8 @@ padding: 20px 0;
     margin: 20px;
     flex: 1;
     max-width: 100%;
+    align-self: center;
+    justify-self: center;
 }
 
 footer {
